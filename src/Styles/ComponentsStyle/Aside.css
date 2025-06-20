@@ -1,0 +1,131 @@
+.principalAsideContainer {
+  width: 320px;
+  display: flex;
+}
+
+.movilAsideBtn {
+  background: transparent;
+  border-style: none;
+}
+
+.MovilAsideIcon {
+  width: 25px;
+}
+
+.asideContainer {
+  position: fixed;
+  height: 100%;
+  background-color: #1c1c1c;
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
+
+.navLinksContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.linkNavigator {
+  font-size: 20px;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  gap: 12px;
+}
+
+.divLinksContainer {
+  display: flex;
+}
+
+.asideIconImg {
+  width: 20px;
+  height: 28px;
+}
+
+.newPostContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.newPostIcon {
+  width: 25px;
+}
+
+.newPostH1 {
+  font-size: 20px;
+  color: #f2f2f2;
+}
+
+.newPostBtn {
+  background-color: #1977cf;
+  border-style: none;
+  width: 180px;
+  height: 35px;
+  border-radius: 100px;
+  font-weight: 700;
+  color: #f2f2f2;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/*MOBILE DESIGN*/
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .principalAsideContainer {
+    width: 0;
+    height: 0;
+    display: flex;
+    align-items: end;
+  }
+
+  .asideContainer {
+    position: fixed;
+    left: 0;
+    top: 70px;
+    height: 100vh;
+    background-color: #1c1c1c;
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+  }
+}
+
+/*TABLETS DESIGN */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .principalAsideContainer {
+    width: 0;
+    height: 0;
+    display: flex;
+    align-items: end;
+  }
+
+  .asideContainer {
+    position: fixed;
+    left: 0;
+    top: 70px;
+    height: 100vh;
+    background-color: #1c1c1c;
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+  }
+}

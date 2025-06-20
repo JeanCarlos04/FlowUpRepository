@@ -1,0 +1,121 @@
+.createPostOverlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+}
+
+.createPostSection {
+  position: fixed;
+  top: 50%;
+  z-index: 999;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0d0d0d;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  padding-inline: 30px;
+  border-radius: 10px;
+}
+
+.createPostForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.createPostDivHeader {
+  display: flex;
+  align-items: center;
+  height: auto;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.createPostMyUser {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.textAreaContent {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  border-style: none;
+  font-size: 25px;
+  color: rgb(190, 190, 190);
+  outline-style: none;
+  resize: vertical;
+  font-size: 18px;
+}
+
+.textAreaContent::placeholder {
+  color: rgb(84, 84, 84);
+  font-size: 25px;
+}
+
+.createPostBtnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createPostBtnInteractions {
+  display: flex;
+  gap: 20px;
+}
+
+.labelInputImg {
+  cursor: pointer;
+  width: auto;
+  height: auto;
+}
+
+.imgContentContainer {
+  width: 100%;
+  height: 300px;
+  overflow-y: auto;
+  padding-inline: 30px;
+}
+
+.imgContentContainer::-webkit-scrollbar {
+  background-color: #0d0d0d;
+  width: 10px;
+}
+
+.imgContentContainer::-webkit-scrollbar-thumb {
+  background-color: rgb(44, 44, 44);
+  border-radius: 100px;
+  width: 5px;
+}
+
+.imgContentContainer::-webkit-scrollbar-button {
+  color: aliceblue;
+}
+
+.imgContent {
+  max-width: 100%;
+  height: auto;
+}
+
+.createPostInputImgs {
+  background: transparent;
+  border-style: none;
+}
+
+.createPostIcons {
+  width: 20px;
+  height: 20px;
+}
+
+.deleteCreatePost {
+  background: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.deleteCreatePostIcon {
+  width: 25px;
+  height: 25px;
+}

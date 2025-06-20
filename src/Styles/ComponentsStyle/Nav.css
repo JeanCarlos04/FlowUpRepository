@@ -1,0 +1,101 @@
+.principalNavContainer {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  position: fixed;
+  height: 80px;
+  background-color: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 30px;
+  z-index: 100;
+  border-bottom: solid 1px #292929;
+}
+
+.logoContainer {
+  height: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.UserContainer {
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.inputNavSearch {
+  width: 450px;
+  height: 38px;
+  border-radius: 100px;
+  border-style: none;
+  padding-left: 30px;
+  font-size: 17px;
+  outline-style: none;
+  font-weight: 600;
+}
+
+.inputLupaSvg {
+  width: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+.imgLogo {
+  width: 60px;
+  height: auto;
+}
+
+.webTitleH1 {
+  font-size: 24px;
+  color: #ffff;
+}
+
+.UserContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userH1 {
+  font-size: 20px;
+  color: #f2f2f2;
+}
+
+.userNameH1 {
+  font-size: 15px;
+  color: #888787;
+  font-weight: 500;
+}
+
+.userImgLink {
+  display: flex;
+}
+
+.imgUser {
+  width: 45px;
+  border-radius: 100%;
+}
+
+.divUsernameContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}

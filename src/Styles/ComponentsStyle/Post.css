@@ -1,0 +1,133 @@
+.postContainer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-right: 60px;
+  background-color: rgb(20, 20, 20);
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-block: solid 1px #292929;
+}
+
+.headerPostContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postUserInfoDiv {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+}
+
+.postUserImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.divNameInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.userUserName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.userTitleH1 {
+  font-weight: 500;
+  font-size: 13px;
+  color: rgb(103, 103, 103);
+}
+
+.postCreatedAt {
+  font-size: 12px;
+  padding-top: 5px;
+  color: rgb(103, 103, 103);
+}
+
+.followBtn {
+  border-style: none;
+  color: #1d1d1d;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: 27px;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: #ffff;
+}
+
+.followingBtn {
+  border-style: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 13px;
+  padding-right: 13px;
+  display: flex;
+  align-items: center;
+  height: 27px;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: #1977cf;
+}
+
+.btnInteractionContainer {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-left: 50px;
+}
+
+.postContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contentParapragh {
+  color: #ffff;
+}
+
+.postImgContainer {
+  padding-inline: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.postContentImg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  display: block;
+}
+
+.postBtnInteractions {
+  background: transparent;
+  border-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.postInteractionsIcon {
+  width: 22px;
+  height: 22px;
+}

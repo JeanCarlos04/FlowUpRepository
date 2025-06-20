@@ -1,0 +1,75 @@
+/*MOBILE DESIGN*/
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .profileHeader {
+    padding: 20px;
+  }
+
+  .profileUserImg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .profileName {
+    font-size: 22px;
+  }
+
+  .profileUsername {
+    font-size: 16px;
+  }
+
+  .profileCountsDiv {
+    display: flex;
+    gap: 30px;
+  }
+
+  .profileCounts {
+    font-size: 17px;
+  }
+
+  .profileBtnsContainer {
+    gap: 33px;
+  }
+
+  .profileInteractionBtns {
+    font-size: 20px;
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .profileHeader {
+    padding: 30px;
+    padding-inline: 40px;
+  }
+
+  .profileUserImg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .profileName {
+    font-size: 25px;
+  }
+
+  .profileUsername {
+    font-size: 18px;
+  }
+
+  .profileCountsDiv {
+    display: flex;
+    gap: 50px;
+  }
+
+  .profileCounts {
+    font-size: 19px;
+  }
+
+  .profileBtnsContainer {
+    gap: 120px;
+  }
+
+  .profileInteractionBtns {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,62 @@
+.principalHomeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.HomeContentContainer {
+  display: flex;
+}
+
+.mainSection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.sectionPrincipalPosts {
+  overflow-y: auto;
+  width: 100%;
+  height: auto;
+  background-color: #1c1c1c;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-inline: solid 1px #242424;
+}
+
+.sectionPrincipalPosts::-webkit-scrollbar {
+  background-color: #1c1c1c;
+  width: 8px;
+}
+
+.sectionPrincipalPosts::-webkit-scrollbar-thumb {
+  background-color: #393939;
+  scrollbar-width: 5px;
+  border-radius: 10px;
+}
+
+.headerContainer {
+  padding-block: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.headerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1977cf;
+  width: auto;
+  padding-inline: 20px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f2f2f2;
+  border-style: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.postContainerDiv {
+  width: 100%;
+}

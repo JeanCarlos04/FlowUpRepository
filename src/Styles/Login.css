@@ -1,0 +1,140 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-logo {
+  height: 480px;
+  width: 300px;
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.container-end {
+  height: 480px;
+  width: 450px;
+  background: linear-gradient(to top, #0b3257, #1c1c1c);
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.container2 {
+  height: 480px;
+  width: 450px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.headerLogoContainer {
+  display: flex;
+  width: 100%;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 {
+  width: 80px;
+}
+
+.logoContainer2 {
+  width: 280px;
+  height: auto;
+}
+
+.logoTitle {
+  font-size: 27px;
+  color: #ffff;
+}
+
+.h-log {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+  color: #ffff;
+}
+
+.inputs {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-s {
+  outline: none;
+  font-size: 18px;
+  height: 50px;
+  width: 350px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.input-s:focus {
+}
+
+.linkSignIn {
+  width: 100%;
+}
+
+.btn-login {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #1977cf;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  color: #fff;
+}
+
+.btn-sign {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  color: #1977cf;
+}
+
+.botones {
+  gap: 20px;
+  display: flex;
+  height: 50px;
+  width: 350px;
+}
+
+.input-s::placeholder {
+  font-size: 18px;
+}
+
+.frase {
+  color: #fff;
+  padding-inline: 30px;
+  font-size: 18px;
+  text-align: center;
+}

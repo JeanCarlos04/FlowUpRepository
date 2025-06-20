@@ -1,0 +1,58 @@
+.principalUsersAsideContainer {
+  display: flex;
+  width: 400px;
+}
+
+.usersRecommendedAside {
+  position: fixed;
+  padding-top: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1c;
+  gap: 40px;
+  padding-left: 30px;
+}
+
+.recommendedUserArticle {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.recommendedTitleAside {
+  color: #ffff;
+}
+
+.recommendedUserImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.recommendedInfoContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.recommendedNamesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.recommendedUser {
+  color: #ffff;
+  font-size: 16px;
+}
+
+.recommendedUsername {
+  color: #626262;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.BtnMoreOptions {
+  width: 22px;
+  height: 22px;
+}
